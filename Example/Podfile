@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ORFileDownloader_Example' do
+  pod 'ORFileDownloader', :path => '../'
+
+  target 'ORFileDownloader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
