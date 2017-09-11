@@ -12,6 +12,9 @@
 		5B599790A2209F30413C15CF4C0026FD /* Pods-ORFileDownloader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B51328BD0513373D6E14D7222CD9FE6D /* Pods-ORFileDownloader_Example-dummy.m */; };
 		611872CF4FC4BFD3EE68CEEEBF945ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6A49F72994C1279B9331D89A7E26F6F3 /* Pods-ORFileDownloader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6005D64A1340E463FCD5DE16CCB2532E /* Pods-ORFileDownloader_Tests-dummy.m */; };
+		845FBA3A1F66D1AF00026481 /* ORDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FBA371F66D1AF00026481 /* ORDownload.swift */; };
+		845FBA3B1F66D1AF00026481 /* ORDownload+AccessCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FBA381F66D1AF00026481 /* ORDownload+AccessCredentials.swift */; };
+		845FBA3C1F66D1AF00026481 /* ORDownload+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FBA391F66D1AF00026481 /* ORDownload+Support.swift */; };
 		A4403DD95F74D770CC8E9DF114B05B14 /* Pods-ORFileDownloader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6322BDF234264F569F88E8280C3B73F2 /* Pods-ORFileDownloader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -20,7 +23,7 @@
 		15C70DCD3D16CD32319855A6196D173F /* Pods-ORFileDownloader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORFileDownloader_Example-umbrella.h"; sourceTree = "<group>"; };
 		28F6F4D4CBD18E2017BCC997EF0530EF /* Pods-ORFileDownloader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORFileDownloader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2FA56D656F6A79244CD87B951FD9DA73 /* Pods-ORFileDownloader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORFileDownloader_Example-resources.sh"; sourceTree = "<group>"; };
-		444DF1A989C8085DC11326AEF06B7307 /* Pods_ORFileDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORFileDownloader_Example.framework; path = "Pods-ORFileDownloader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		444DF1A989C8085DC11326AEF06B7307 /* Pods_ORFileDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORFileDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAC1FF388DAF755B59DFDFE450BA690 /* Pods-ORFileDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORFileDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4F75B313DDC4F9A3EC51AA90502B01A0 /* Pods-ORFileDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORFileDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6005D64A1340E463FCD5DE16CCB2532E /* Pods-ORFileDownloader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORFileDownloader_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -29,17 +32,20 @@
 		6AA43C6E47684B45A49A1629A3304CB0 /* Pods-ORFileDownloader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORFileDownloader_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		73EBC7BB6A7CA5CF15CD408DDE9C5ACD /* Pods-ORFileDownloader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORFileDownloader_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7C4FD780EFAAA220FB02E5D387F65FE4 /* Pods-ORFileDownloader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORFileDownloader_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		845FBA371F66D1AF00026481 /* ORDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ORDownload.swift; path = ORFileDownloader/Classes/ORDownload.swift; sourceTree = "<group>"; };
+		845FBA381F66D1AF00026481 /* ORDownload+AccessCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ORDownload+AccessCredentials.swift"; path = "ORFileDownloader/Classes/ORDownload+AccessCredentials.swift"; sourceTree = "<group>"; };
+		845FBA391F66D1AF00026481 /* ORDownload+Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ORDownload+Support.swift"; path = "ORFileDownloader/Classes/ORDownload+Support.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E8A64502EAF7E995C590B58998B70C /* Pods-ORFileDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORFileDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B1550893CCB615069360C799E5AE6E95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B51328BD0513373D6E14D7222CD9FE6D /* Pods-ORFileDownloader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORFileDownloader_Example-dummy.m"; sourceTree = "<group>"; };
 		B9054B839509FC0D24D93DFB095D726F /* Pods-ORFileDownloader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORFileDownloader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0D7583A6B95F3B1EF4BE6564EB00159 /* Pods-ORFileDownloader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORFileDownloader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE25865F1662DDEE4C1B4E38DB8DD075 /* Pods-ORFileDownloader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORFileDownloader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D18EA69027D57328597AF21DB290276A /* Pods-ORFileDownloader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ORFileDownloader_Tests.modulemap"; sourceTree = "<group>"; };
-		E55870E9661D154BFD562554D01B2177 /* Pods_ORFileDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORFileDownloader_Tests.framework; path = "Pods-ORFileDownloader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18EA69027D57328597AF21DB290276A /* Pods-ORFileDownloader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ORFileDownloader_Tests.modulemap"; sourceTree = "<group>"; };
+		E55870E9661D154BFD562554D01B2177 /* Pods_ORFileDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORFileDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EEE3494ECEE7959E02BB2B408CE2D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F36AC344BB0AD5A2E492E8400115B081 /* Pods-ORFileDownloader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ORFileDownloader_Example.modulemap"; sourceTree = "<group>"; };
+		F36AC344BB0AD5A2E492E8400115B081 /* Pods-ORFileDownloader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ORFileDownloader_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 		5A3C8478BD0CDFBED6C78B022FF4C597 /* ORFileDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				845FBA371F66D1AF00026481 /* ORDownload.swift */,
+				845FBA381F66D1AF00026481 /* ORDownload+AccessCredentials.swift */,
+				845FBA391F66D1AF00026481 /* ORDownload+Support.swift */,
 			);
 			name = ORFileDownloader;
 			path = ../..;
@@ -223,6 +232,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					F4A2D03720E2192EFEE790E7A4512DF1 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -247,6 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845FBA3C1F66D1AF00026481 /* ORDownload+Support.swift in Sources */,
+				845FBA3B1F66D1AF00026481 /* ORDownload+AccessCredentials.swift in Sources */,
+				845FBA3A1F66D1AF00026481 /* ORDownload.swift in Sources */,
 				5B599790A2209F30413C15CF4C0026FD /* Pods-ORFileDownloader_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BAC1FF388DAF755B59DFDFE450BA690 /* Pods-ORFileDownloader_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -336,6 +354,7 @@
 				PRODUCT_NAME = Pods_ORFileDownloader_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -382,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93E8A64502EAF7E995C590B58998B70C /* Pods-ORFileDownloader_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -408,6 +428,8 @@
 				PRODUCT_NAME = Pods_ORFileDownloader_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
