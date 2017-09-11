@@ -1,0 +1,22 @@
+{
+  "name": "ORFileDownloader",
+  "version": "0.1.0",
+  "summary": "A short description of ORFileDownloader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://bitbucket.org/omegarinc/orfiledownloader/overview",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nikita Egoshin": "nikita.egoshin@omega-r.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/omegarinc/orfiledownloader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ORFileDownloader/Classes/**/*"
+}

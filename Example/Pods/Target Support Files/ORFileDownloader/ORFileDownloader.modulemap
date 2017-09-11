@@ -1,0 +1,6 @@
+framework module ORFileDownloader {
+  umbrella header "ORFileDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_ORFileDownloader_Tests {
+  umbrella header "Pods-ORFileDownloader_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

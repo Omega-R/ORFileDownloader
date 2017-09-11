@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ORFileDownloader
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let vc = window?.rootViewController as? ViewController
+        vc?.download = ORDownload.restoreDownload()
+        
+        let isHandled = UserDefaults.standard.string(forKey: "is_events_handled")
+        print("Is handled: \(isHandled ?? "none")")
+        
         return true
     }
 
@@ -40,7 +47,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+//    func application(_ application: UIApplication, handleEventsForBackgroundURLSession identifier: String, completionHandler: @escaping () -> Void) {
+//        
+//        UserDefaults.standard.set(identifier, forKey: "is_events_handled")
+//        UserDefaults.standard.synchronize()
+//        
+//        UIApplication.shared.applicationIconBadgeNumber = 1;
+//        
+//        ORDownload.handleEventsForBackgroundSession(with: identifier, completion: completionHandler)
+//    }
 
+    func application(_ application: UIApplication, handleEventsForBackgroundURLSession identifier: String, completionHandler: @escaping () -> Void) {
+        
+        UserDefaults.standard.set(identifier, forKey: "is_events_handled")
+        UserDefaults.standard.synchronize()
+        
+        UIApplication.shared.applicationIconBadgeNumber = 1;
+        
+        ORDownload.handleEventsForBackgroundSession(with: identifier, completion: completionHandler)
+    }
 
 }
 

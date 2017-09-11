@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		2469463CD6D4FE5F03909652 /* Pods-ORFileDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		32DEB2839C2BA1FA985318CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		32DEB2839C2BA1FA985318CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3CEC92E3BEFBF11B2FD16F8E /* Pods-ORFileDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5EFA3D080228A394E6123BA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5EFA3D080228A394E6123BA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ORFileDownloader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORFileDownloader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		922E297DE62D574F9EF9BBFF /* Pods_ORFileDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORFileDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEC1C314A064D84145A3DF3 /* Pods_ORFileDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORFileDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF8689B7B34B66DE6C6A1F7 /* Pods-ORFileDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FD938FB91A9F22D4D8C3F0EA /* ORFileDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ORFileDownloader.podspec; path = ../ORFileDownloader.podspec; sourceTree = "<group>"; };
+		FD938FB91A9F22D4D8C3F0EA /* ORFileDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ORFileDownloader.podspec; path = ../ORFileDownloader.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,11 +215,20 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NWAXZVJAA5;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NWAXZVJAA5;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -505,11 +514,20 @@
 			baseConfigurationReference = BEF8689B7B34B66DE6C6A1F7 /* Pods-ORFileDownloader_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NWAXZVJAA5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					ORDOWNLOADER_LOGS,
+				);
 				INFOPLIST_FILE = ORFileDownloader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omegar.demo.ORFileDownloader-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3911bc19-4d1e-4233-a681-36e373c3ef13";
+				PROVISIONING_PROFILE_SPECIFIER = "Omega-R Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -519,11 +537,15 @@
 			baseConfigurationReference = 652A75B9BBD7F9D19F5C30FB /* Pods-ORFileDownloader_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				INFOPLIST_FILE = ORFileDownloader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omegar.demo.ORFileDownloader-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3911bc19-4d1e-4233-a681-36e373c3ef13";
+				PROVISIONING_PROFILE_SPECIFIER = "Omega-R Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -532,6 +554,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CEC92E3BEFBF11B2FD16F8E /* Pods-ORFileDownloader_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -544,7 +568,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORFileDownloader_Example.app/ORFileDownloader_Example";
 			};
 			name = Debug;
 		};
@@ -552,6 +578,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2469463CD6D4FE5F03909652 /* Pods-ORFileDownloader_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -560,7 +588,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORFileDownloader_Example.app/ORFileDownloader_Example";
 			};
 			name = Release;
 		};
