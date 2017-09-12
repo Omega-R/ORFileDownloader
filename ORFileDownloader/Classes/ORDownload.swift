@@ -218,11 +218,13 @@ open class ORDownload : NSObject, URLSessionDownloadDelegate {
     // MARK: - Notification Senders
     
     private func postNotification(_ name: Notification.Name, withUserInfo userInfo: [String : Any]) {
-        let notification = Notification(name: name,
-                                        object: self,
-                                        userInfo: userInfo)
-        
-        NotificationCenter.default.post(notification)
+        DispatchQueue.main.async {
+            let notification = Notification(name: name,
+                                            object: self,
+                                            userInfo: userInfo)
+            
+            NotificationCenter.default.post(notification)
+        }
     }
     
     private func postDownloadFailNotification(for error: Error) {
