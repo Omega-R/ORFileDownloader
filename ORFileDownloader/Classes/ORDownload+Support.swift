@@ -15,16 +15,16 @@ extension String {
 }
 
 public extension Notification.Name {
-    public static let ORDownloadDidFinish = Notification.Name(rawValue: "ORDownloadDidFinish")
-    public static let ORDownloadDidFail = Notification.Name(rawValue: "ORDownloadDidFail")
-    public static let ORDownloadDidUpdateProgress = Notification.Name(rawValue: "ORDownloadDidUpdateProgress")
+    static let ORDownloadDidFinish = Notification.Name(rawValue: "ORDownloadDidFinish")
+    static let ORDownloadDidFail = Notification.Name(rawValue: "ORDownloadDidFail")
+    static let ORDownloadDidUpdateProgress = Notification.Name(rawValue: "ORDownloadDidUpdateProgress")
 }
 
 
 // MARK: - Field Keys
 
 public extension ORDownload {
-    public static let kErrorFieldKey = "error"
-    public static let kFileURLFieldKey = "fileURL"
-    public static let kDownloadProgressFieldKey = "progress"
+    static let kErrorFieldKey = "error"
+    static let kFileURLFieldKey = "fileURL"
+    static let kDownloadProgressFieldKey = "progress"
 }
