@@ -1,9 +1,9 @@
 # ORFileDownloader
 
-[![CI Status](http://img.shields.io/travis/Teleks/ORFileDownloader.svg?style=flat)](https://travis-ci.org/Teleks/ORFileDownloader)
-[![Version](https://img.shields.io/cocoapods/v/ORFileDownloader.svg?style=flat)](http://cocoapods.org/pods/ORFileDownloader)
-[![License](https://img.shields.io/cocoapods/l/ORFileDownloader.svg?style=flat)](http://cocoapods.org/pods/ORFileDownloader)
-[![Platform](https://img.shields.io/cocoapods/p/ORFileDownloader.svg?style=flat)](http://cocoapods.org/pods/ORFileDownloader)
+[![CI Status](https://img.shields.io/travis/Egor Lindberg/ORFileDownloader.svg?style=flat)](https://travis-ci.org/Egor Lindberg/ORFileDownloader)
+[![Version](https://img.shields.io/cocoapods/v/ORFileDownloader.svg?style=flat)](https://cocoapods.org/pods/ORFileDownloader)
+[![License](https://img.shields.io/cocoapods/l/ORFileDownloader.svg?style=flat)](https://cocoapods.org/pods/ORFileDownloader)
+[![Platform](https://img.shields.io/cocoapods/p/ORFileDownloader.svg?style=flat)](https://cocoapods.org/pods/ORFileDownloader)
 
 ## Example
 
@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-ORFileDownloader is available through [CocoaPods](http://cocoapods.org). To install
+ORFileDownloader is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -22,7 +22,7 @@ pod 'ORFileDownloader'
 
 ## Author
 
-Teleks, nikita.egoshin@omega-r.com
+Egor Lindberg, egor-lindberg@omega-r.com
 
 ## License
 

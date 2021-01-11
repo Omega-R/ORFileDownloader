@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03188630FF04E5F911B0C76B /* Pods_ORFileDownloader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922E297DE62D574F9EF9BBFF /* Pods_ORFileDownloader_Tests.framework */; };
-		39B0C41DB086B10AEB248E98 /* Pods_ORFileDownloader_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEC1C314A064D84145A3DF3 /* Pods_ORFileDownloader_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6287FE7C4356EC964BCD896E /* Pods_ORFileDownloader_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D528A544AE0E1C87AAA6592 /* Pods_ORFileDownloader_Example.framework */; };
+		89DEE730C895433F8BAE6C77 /* Pods_ORFileDownloader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486B4C9B8A477FC094E4D301 /* Pods_ORFileDownloader_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2469463CD6D4FE5F03909652 /* Pods-ORFileDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		32DEB2839C2BA1FA985318CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3CEC92E3BEFBF11B2FD16F8E /* Pods-ORFileDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5EFA3D080228A394E6123BA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		29C6312C3BE8FCCD48FEF7D5 /* Pods-ORFileDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Example.release.xcconfig"; path = "Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3F029E49739CAF0055725E50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4180BADEE63B9BD59BACCB68 /* Pods-ORFileDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		42104E0F1001352BC4D6E04A /* Pods-ORFileDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Tests.release.xcconfig"; path = "Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		486B4C9B8A477FC094E4D301 /* Pods_ORFileDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORFileDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ORFileDownloader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORFileDownloader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +43,10 @@
 		607FACE51AFB9204008FA782 /* ORFileDownloader_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORFileDownloader_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		652A75B9BBD7F9D19F5C30FB /* Pods-ORFileDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		922E297DE62D574F9EF9BBFF /* Pods_ORFileDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORFileDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDEC1C314A064D84145A3DF3 /* Pods_ORFileDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORFileDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF8689B7B34B66DE6C6A1F7 /* Pods-ORFileDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FD938FB91A9F22D4D8C3F0EA /* ORFileDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ORFileDownloader.podspec; path = ../ORFileDownloader.podspec; sourceTree = "<group>"; };
+		6C6103B509AEA971EBBA4AB4 /* Pods-ORFileDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORFileDownloader_Example.debug.xcconfig"; path = "Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8D528A544AE0E1C87AAA6592 /* Pods_ORFileDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORFileDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1A587CBE60526745E0821A /* ORFileDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ORFileDownloader.podspec; path = ../ORFileDownloader.podspec; sourceTree = "<group>"; };
+		F0A2528589E2BA9983D94BA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39B0C41DB086B10AEB248E98 /* Pods_ORFileDownloader_Example.framework in Frameworks */,
+				6287FE7C4356EC964BCD896E /* Pods_ORFileDownloader_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,31 +62,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03188630FF04E5F911B0C76B /* Pods_ORFileDownloader_Tests.framework in Frameworks */,
+				89DEE730C895433F8BAE6C77 /* Pods_ORFileDownloader_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FA2AF74E2AB30C9F81D9EDE /* Frameworks */ = {
+		01D51978A6A314A2988C32B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BDEC1C314A064D84145A3DF3 /* Pods_ORFileDownloader_Example.framework */,
-				922E297DE62D574F9EF9BBFF /* Pods_ORFileDownloader_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2338048144AAA2EE450950FB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BEF8689B7B34B66DE6C6A1F7 /* Pods-ORFileDownloader_Example.debug.xcconfig */,
-				652A75B9BBD7F9D19F5C30FB /* Pods-ORFileDownloader_Example.release.xcconfig */,
-				3CEC92E3BEFBF11B2FD16F8E /* Pods-ORFileDownloader_Tests.debug.xcconfig */,
-				2469463CD6D4FE5F03909652 /* Pods-ORFileDownloader_Tests.release.xcconfig */,
+				6C6103B509AEA971EBBA4AB4 /* Pods-ORFileDownloader_Example.debug.xcconfig */,
+				29C6312C3BE8FCCD48FEF7D5 /* Pods-ORFileDownloader_Example.release.xcconfig */,
+				4180BADEE63B9BD59BACCB68 /* Pods-ORFileDownloader_Tests.debug.xcconfig */,
+				42104E0F1001352BC4D6E04A /* Pods-ORFileDownloader_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -96,8 +88,8 @@
 				607FACD21AFB9204008FA782 /* Example for ORFileDownloader */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				2338048144AAA2EE450950FB /* Pods */,
-				0FA2AF74E2AB30C9F81D9EDE /* Frameworks */,
+				01D51978A6A314A2988C32B6 /* Pods */,
+				892C38A3A0B0A9CEDB61E23A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,11 +144,20 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				FD938FB91A9F22D4D8C3F0EA /* ORFileDownloader.podspec */,
-				5EFA3D080228A394E6123BA5 /* README.md */,
-				32DEB2839C2BA1FA985318CD /* LICENSE */,
+				CA1A587CBE60526745E0821A /* ORFileDownloader.podspec */,
+				3F029E49739CAF0055725E50 /* README.md */,
+				F0A2528589E2BA9983D94BA9 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		892C38A3A0B0A9CEDB61E23A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D528A544AE0E1C87AAA6592 /* Pods_ORFileDownloader_Example.framework */,
+				486B4C9B8A477FC094E4D301 /* Pods_ORFileDownloader_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ORFileDownloader_Example" */;
 			buildPhases = (
-				5368A95E3E1F5314DD4F1616 /* [CP] Check Pods Manifest.lock */,
+				5ED57AB82C9D0889C583804C /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				01F5004DBE374E98553A5C37 /* [CP] Embed Pods Frameworks */,
-				76E18581153A3AD3AE72ADAA /* [CP] Copy Pods Resources */,
+				B24694ECE0CBC6639B326B23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ORFileDownloader_Tests" */;
 			buildPhases = (
-				6DF120B28BFCBD1463F0F73C /* [CP] Check Pods Manifest.lock */,
+				B72F058F5BA84484169B1128 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				BEE74DECBF3D52B8CE69F25F /* [CP] Embed Pods Frameworks */,
-				03ECB099E164004D47DF6DA5 /* [CP] Copy Pods Resources */,
+				000E99CD01A7AA60AB8A096B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,26 +208,17 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = NWAXZVJAA5;
-						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 0;
-							};
-						};
+						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = NWAXZVJAA5;
-						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -273,49 +263,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01F5004DBE374E98553A5C37 /* [CP] Embed Pods Frameworks */ = {
+		000E99CD01A7AA60AB8A096B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ORFileDownloader/ORFileDownloader.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ORFileDownloader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		03ECB099E164004D47DF6DA5 /* [CP] Copy Pods Resources */ = {
+		5ED57AB82C9D0889C583804C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5368A95E3E1F5314DD4F1616 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ORFileDownloader_Example-checkManifestLockResult.txt",
 			);
@@ -324,52 +303,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6DF120B28BFCBD1463F0F73C /* [CP] Check Pods Manifest.lock */ = {
+		B24694ECE0CBC6639B326B23 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ORFileDownloader/ORFileDownloader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ORFileDownloader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72F058F5BA84484169B1128 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ORFileDownloader_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76E18581153A3AD3AE72ADAA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORFileDownloader_Example/Pods-ORFileDownloader_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BEE74DECBF3D52B8CE69F25F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORFileDownloader_Tests/Pods-ORFileDownloader_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -430,14 +401,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -461,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -477,14 +454,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -501,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -511,53 +494,40 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEF8689B7B34B66DE6C6A1F7 /* Pods-ORFileDownloader_Example.debug.xcconfig */;
+			baseConfigurationReference = 6C6103B509AEA971EBBA4AB4 /* Pods-ORFileDownloader_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = NWAXZVJAA5;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					ORDOWNLOADER_LOGS,
-				);
 				INFOPLIST_FILE = ORFileDownloader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.omegar.demo.ORFileDownloader-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3911bc19-4d1e-4233-a681-36e373c3ef13";
-				PROVISIONING_PROFILE_SPECIFIER = "Omega-R Development";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 652A75B9BBD7F9D19F5C30FB /* Pods-ORFileDownloader_Example.release.xcconfig */;
+			baseConfigurationReference = 29C6312C3BE8FCCD48FEF7D5 /* Pods-ORFileDownloader_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				INFOPLIST_FILE = ORFileDownloader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.omegar.demo.ORFileDownloader-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3911bc19-4d1e-4233-a681-36e373c3ef13";
-				PROVISIONING_PROFILE_SPECIFIER = "Omega-R Development";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CEC92E3BEFBF11B2FD16F8E /* Pods-ORFileDownloader_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4180BADEE63B9BD59BACCB68 /* Pods-ORFileDownloader_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -568,28 +538,26 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORFileDownloader_Example.app/ORFileDownloader_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2469463CD6D4FE5F03909652 /* Pods-ORFileDownloader_Tests.release.xcconfig */;
+			baseConfigurationReference = 42104E0F1001352BC4D6E04A /* Pods-ORFileDownloader_Tests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = NWAXZVJAA5;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORFileDownloader_Example.app/ORFileDownloader_Example";
 			};
 			name = Release;
